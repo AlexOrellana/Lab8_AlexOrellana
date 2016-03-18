@@ -10,6 +10,6 @@ Disenos::Disenos(string nombre,string autor,string fecha,string tipo):Obras(nomb
 }
 string Disenos::toString(){
 	stringstream ss;
-	ss << Obras::toString() << tipo;
+	ss << Obras::toString() << tipo << "[disenos]";
 	return ss.str();
 }

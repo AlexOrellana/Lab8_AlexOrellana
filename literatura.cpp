@@ -10,7 +10,7 @@ Literatura::Literatura(string nombre,string autor,string fecha,string genero,str
 }
 string Literatura::toString(){
 	stringstream ss;
-	ss << Obras::toString() << genero << " " <<epoca;
+	ss << Obras::toString() << genero << " " <<epoca<<"[literatura]";
 	return ss.str();
 }
 

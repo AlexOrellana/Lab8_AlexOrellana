@@ -10,6 +10,6 @@ Pinturas::Pinturas(string nombre,string autor,string fecha,string material,strin
 }
 string Pinturas::toString(){
 	stringstream ss;
-	ss << Obras::toString() << material << " " << tecnica;
+	ss << Obras::toString() << material << " " << tecnica<<"[pinturas]";
 	return ss.str();
 }

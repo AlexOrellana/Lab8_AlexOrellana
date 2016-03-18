@@ -10,6 +10,6 @@ Esculturas::Esculturas(string nombre,string autor,string fecha,int peso,string m
 }
 string Esculturas::toString(){
 	stringstream ss;
-	ss << Obras::toString() << peso << " " << material;
+	ss << Obras::toString() << peso << " " << material<< "[Escultura]";
 	return ss.str();
 }
